@@ -23,6 +23,6 @@ const counterReducer = (state = 0, action) => {//reducer içerisinde veri taban�
         default:
             return(state);
             break;
-    }
+    }//gelen action değerine göre state değerindeki değişiklik switch ile kontrol edildi
 }
 export default counterReducer;
