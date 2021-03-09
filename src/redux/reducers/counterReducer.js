@@ -13,16 +13,13 @@ const counterReducer = (state = 0, action) => {//reducer içerisinde veri taban�
     switch (action.type) {
         case actionTypes.DECREASE_COUNTER:
             return (newState = state + action.payload);
-            break;
         case actionTypes.INCREASE_COUNTER:
-            return (newState = state - action.payload);
-            break;
+            return (newState = state - action.payload); 
         case actionTypes.INCREASE_BY_TWO_COUNTER:
-            return (newState = state + action.payload);
-            break;
+            return (newState = state + action.payload); 
         default:
-            return(state);
-            break;
+            return state;
+            
     }//gelen action değerine göre state değerindeki değişiklik switch ile kontrol edildi
 }
 export default counterReducer;
