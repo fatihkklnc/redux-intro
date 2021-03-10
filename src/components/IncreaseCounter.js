@@ -4,7 +4,7 @@ File:IncreaseCounter.js
 
 Contents: redux ile oluşturulan state e ulaşıldı ve arttırma operatörü çalıştırıldı
 
-History: 09.03.2021 FatihK
+History: 10.03.2021 FatihK
 */
 import React, { Component } from 'react';
 import { connect } from 'react-redux';

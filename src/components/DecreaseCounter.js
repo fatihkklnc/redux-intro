@@ -4,7 +4,7 @@ File:DecreaseCounter.js
 
 Contents: redux ile eksiltme işlemi 
 
-History: 09.03.2021 FatihK
+History: 10.03.2021 FatihK
 */
 import React, { Component } from 'react';
 import { connect } from 'react-redux';

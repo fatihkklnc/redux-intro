@@ -4,7 +4,7 @@ File:counterReducer.js
 
 Contents: Reducer kullanarak basit state yönetimi yapıldı
 
-History: 08.03.2021 FatihK
+History: 10.03.2021 FatihK
 */
 import * as actionTypes from "../actions/actionTyps";
 

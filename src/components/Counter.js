@@ -4,7 +4,7 @@ File:Counter.js
 
 Contents: redux ile sayma yapısı denendi ana dizin kullanılmadan state çekildi
 
-History: 09.03.2021 FatihK
+History: 10.03.2021 FatihK
 */
 import React, { Component } from 'react';
 import {connect} from "react-redux";

@@ -4,7 +4,7 @@ File:counterActions.js
 
 Contents: redux yapısında kullanılacak olan Actions mimarisi
 
-History: 08.03.2021 FatihK
+History: 10.03.2021 FatihK
 */ 
 import * as actionTypes from "./actionTyps";
 
@@ -23,6 +23,5 @@ export const increaseByTwoCounter=()=>({
     payload:2
 })
 export const resetCounter=()=>({
-    type:actionTypes.RESET_COUNTER,
-    payload:0
+    type:actionTypes.RESET_COUNTER
 })

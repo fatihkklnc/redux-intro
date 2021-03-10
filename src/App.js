@@ -1,3 +1,11 @@
+/* Annova Software
+
+File:App.js
+
+Contents: oluşturulan componentler çağrıldı
+
+History: 10.03.2021 FatihK
+*/ 
 import React from 'react';
 import Counter from "./components/Counter"
 import IncreaseCounter from "./components/IncreaseCounter"
