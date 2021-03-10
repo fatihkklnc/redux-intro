@@ -12,9 +12,9 @@ const counterReducer = (state = 0, action) => {//reducer iÃ§erisinde veri tabanÄ
     let newState;
     switch (action.type) {
         case actionTypes.DECREASE_COUNTER:
-            return (newState = state + action.payload);
+            return (newState = state - action.payload);
         case actionTypes.INCREASE_COUNTER:
-            return (newState = state - action.payload); 
+            return (newState = state + action.payload); 
         case actionTypes.INCREASE_BY_TWO_COUNTER:
             return (newState = state + action.payload); 
         default:

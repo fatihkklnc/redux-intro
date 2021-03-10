@@ -1,11 +1,11 @@
-{/* Annova Software
+/* Annova Software
 
 File:counterActions.js
 
 Contents: redux yapısında kullanılacak olan Actions mimarisi
 
 History: 08.03.2021 FatihK
-*/ }
+*/ 
 import * as actionTypes from "./actionTyps";
 
 export const increaseCounter=()=>({

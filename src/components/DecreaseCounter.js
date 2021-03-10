@@ -7,15 +7,22 @@ Contents: redux ile eksiltme işlemi
 History: 09.03.2021 FatihK
 */
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { decreaseCounter } from '../redux/actions/counterActions';
 
 class DecreaseCounter extends Component {
     render() {
         return (
             <div>
-                
+                <button onClick={e=>{
+                    this.props.dispatch(decreaseCounter())
+                }}>1 eksilt</button>
             </div>
         );
     }
 }
-
-export default DecreaseCounter;
+function mapDispatchToProps(dispatch){
+    return {action:bindActionCreators(decreaseCounter,dispatch)}
+}
+export default connect(mapDispatchToProps)(DecreaseCounter);
